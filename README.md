@@ -12,5 +12,6 @@ cd angr-Windows
 pip install virtualenv
 virtualenv --python=C:\Python2.7-64bit\python.exe angr
 angr\Scripts\activate
+pip install <each of the wheel files>
 pip install angr
 ```
