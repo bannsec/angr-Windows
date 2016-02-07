@@ -12,8 +12,10 @@ cd angr-Windows
 pip install virtualenv
 virtualenv --python=C:\Python2.7-64bit\python.exe angr
 angr\Scripts\activate
-pip install <each of the wheel files>
+pip install <capstone>
+pip install <z3>
+pip install <pyvex>
 pip install angr
 ```
 
-Then move the "c++filt" executable into your angr/Scripts directory.
+Then move the "c++filt" executable into your angr/Scripts directory. And yes, the order matters somewhat. Primarily I think capstone needs to be installed first, then the other wheel files in any order. Make sure you install the wheel files prior to attempting to install angr proper.
