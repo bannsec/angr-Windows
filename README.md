@@ -15,3 +15,5 @@ angr\Scripts\activate
 pip install <each of the wheel files>
 pip install angr
 ```
+
+The move the "c++filt" executable into your angr/Scripts directory.
