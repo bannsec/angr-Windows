@@ -6,6 +6,9 @@ Windows builds for use with angr framework
 
 ## Installing Angr
 
+Make sure you have Visual C++ Redistributable for Visual Studio 2012 installed
+  http://www.microsoft.com/en-us/download/details.aspx?id=30679#
+
 ```bash
 git clone https://github.com/Owlz/angr-Windows.git
 cd angr-Windows
